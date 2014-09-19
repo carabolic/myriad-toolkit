@@ -1,0 +1,946 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"MO",
+				"MODULES"
+			],
+			[
+				"insert",
+				"insertTrie	Trie a -> Trie a -> Trie a"
+			],
+			[
+				"s",
+				"singleton	String -> a -> Trie a"
+			],
+			[
+				"ma",
+				"map	(Ord a, Ord b) => (a -> b) -> Set a -> Set b"
+			],
+			[
+				"de",
+				"deleteFindMin	Set a -> (a, Set a)"
+			],
+			[
+				"glo",
+				"globalSearchA	  (Ord a) =>\n  (a -> Bool) ->\n    ((String, a) -> Bool) ->\n      ((String, a) -> (String, a) -> Bool) ->\n        S.Set String -> S.Set a -> S.Set (T.Trie a)"
+			],
+			[
+				"inser",
+				"insertTrie	Trie a -> Trie a -> Trie a"
+			],
+			[
+				"un",
+				"union	Ord a => Set a -> Set a -> Set a"
+			],
+			[
+				"gl",
+				"globalSearchB	  (Ord a) =>\n  ((String, a) -> Bool) ->\n    ((String, a) -> (String, a) -> Bool) ->\n      S.Set String -> S.Set a -> S.Set (T.Trie a)"
+			],
+			[
+				"find",
+				"deleteFindMin	Set a -> (a, Set a)"
+			],
+			[
+				"n",
+				"null	Set a -> Bool"
+			],
+			[
+				"gla",
+				"globalSearchB	  (Ord a) =>\n  ((String, a) -> Bool) ->\n    ((String, a) -> (String, a) -> Bool) ->\n      S.Set String -> S.Set a -> S.Set (T.Trie a)"
+			],
+			[
+				"go",
+				"globalSearchB	  (Ord a) =>\n  ((String, a) -> Bool) ->\n    ((String, a) -> (String, a) -> Bool) ->\n      S.Set String -> S.Set a -> S.Set (Trie a)"
+			],
+			[
+				"mut",
+				"mutually	  (Eq a) => ((String, a) -> (String, a) -> Bool) -> Trie a -> Bool"
+			],
+			[
+				"mu",
+				"mutually	  (Eq a) => ((String, a) -> (String, a) -> Bool) -> Trie a -> Bool"
+			],
+			[
+				"map",
+				"mapTK	(String -> a -> b) -> Trie a -> Trie b"
+			],
+			[
+				"po",
+				"pointwiseDom	(String -> Bool) -> Trie a -> Bool"
+			],
+			[
+				"poi",
+				"pointwiseRan	(a -> Bool) -> Trie a -> Bool"
+			],
+			[
+				"filt",
+				"filter	(a -> Bool) -> [a] -> [a]"
+			],
+			[
+				"fold",
+				"foldr	(a -> b -> b) -> b -> Set a -> b"
+			],
+			[
+				"is",
+				"isIn"
+			],
+			[
+				"filter",
+				"filterTK	(String -> a -> Bool) -> Trie a -> Trie a"
+			],
+			[
+				"len",
+				"lenRight"
+			],
+			[
+				"le",
+				"lenLeft"
+			],
+			[
+				"qual",
+				"qualified"
+			],
+			[
+				"D",
+				"Deque	a"
+			],
+			[
+				"h",
+				"hiding"
+			],
+			[
+				"u",
+				"union"
+			],
+			[
+				"ex",
+				"extractMin"
+			],
+			[
+				"Ske",
+				"SkewNode"
+			],
+			[
+				"Pa",
+				"PairingNode"
+			],
+			[
+				"em",
+				"Empty"
+			],
+			[
+				"sin",
+				"singleton"
+			],
+			[
+				"Pai",
+				"PairingHeap	a"
+			],
+			[
+				"sor",
+				"sortByWord	(String, Int) -> (String, Int) -> Ordering"
+			],
+			[
+				"so",
+				"sortBy	(a -> a -> Ordering) -> [a] -> [a]"
+			],
+			[
+				"get",
+				"getArgs	IO [String]"
+			],
+			[
+				"pre",
+				"prettyPrint	  (Show a, Show b) => [(a, b)] -> String"
+			],
+			[
+				"exi",
+				"exitParseError	IO a"
+			],
+			[
+				"Ex",
+				"ExitFailure	Int -> ExitCode"
+			],
+			[
+				"exit",
+				"exitWith	ExitCode -> IO a"
+			],
+			[
+				"Exi",
+				"ExitSuccess	ExitCode"
+			],
+			[
+				"getC",
+				"getContents	IO String"
+			],
+			[
+				"Type",
+				"TypeSynonymInstances"
+			],
+			[
+				"L",
+				"LANGUAGE"
+			],
+			[
+				"ins",
+				"insert	a -> ListQueue a -> ListQueue a"
+			],
+			[
+				"e",
+				"empty	SimpleQueue a"
+			],
+			[
+				"qu",
+				"qualified"
+			],
+			[
+				"List",
+				"ListQueue	a"
+			],
+			[
+				"Lis",
+				"ListQueue	a"
+			],
+			[
+				"Simple",
+				"SimpleQueue	a"
+			],
+			[
+				"toLo",
+				"toLowerCase	String -> String"
+			],
+			[
+				"T",
+				"Trie	a"
+			],
+			[
+				"to",
+				"toLower	Char -> Char"
+			],
+			[
+				"EXit",
+				"ExitFailure	Int -> ExitCode"
+			],
+			[
+				"sortB",
+				"sortByKey"
+			],
+			[
+				"pr",
+				"prettyPrint	  (Show a, Show b) => [(a, b)] -> String"
+			],
+			[
+				"as",
+				"asList	Trie a -> [(String, a)]"
+			],
+			[
+				"sort",
+				"sortBy	(a -> a -> Ordering) -> [a] -> [a]"
+			],
+			[
+				"Or",
+				"Ordering	data Ordering"
+			],
+			[
+				"a",
+				"asList	Trie a -> [(String, a)]"
+			],
+			[
+				"putStr",
+				"putStrLn	String -> IO ()"
+			],
+			[
+				"re",
+				"remove	String -> Trie a -> Trie a"
+			],
+			[
+				"in",
+				"insert	String -> a -> Trie a -> Trie a"
+			],
+			[
+				"mo",
+				"module"
+			],
+			[
+				"where",
+				"where"
+			],
+			[
+				"Pre",
+				"Prelude	(module)"
+			],
+			[
+				"Ma",
+				"Maybe	(module)"
+			],
+			[
+				"left",
+				"left"
+			],
+			[
+				"inter",
+				"intersect"
+			],
+			[
+				"fol",
+				"foldTK"
+			],
+			[
+				"mapT",
+				"mapTK"
+			],
+			[
+				"A",
+				"AList	a"
+			],
+			[
+				"Do",
+				"Double"
+			],
+			[
+				"chi",
+				"children"
+			],
+			[
+				"f",
+				"fromMaybe	a -> Maybe a -> a"
+			],
+			[
+				"DO",
+				"DOXY_INPUT"
+			],
+			[
+				"doxyt",
+				"DOXY_INPUT"
+			],
+			[
+				"do",
+				"doxy_extra_files"
+			],
+			[
+				"dox",
+				"doxyfile_in"
+			],
+			[
+				"doxy",
+				"doxy_html_index_file"
+			],
+			[
+				"DOX",
+				"DOXY_OUTPUT_ROOT"
+			],
+			[
+				"DOXY",
+				"DOXY_OUTPUT_ROOT"
+			],
+			[
+				"DOXY_EX",
+				"doxy_extra_files"
+			],
+			[
+				"meta",
+				"metaDir"
+			],
+			[
+				"type",
+				"typename"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "CMakeLists.txt",
+			"settings":
+			{
+				"buffer_size": 1537,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/cpp/config/include/myriad/config/AbstractGeneratorConfig.h",
+			"settings":
+			{
+				"buffer_size": 11177,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/cpp/generator/include/myriad/generator/AbstractSequenceGenerator.h",
+			"settings":
+			{
+				"buffer_size": 8039,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Makefile/Make.sublime-build",
+	"command_palette":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+			[
+				"Clang",
+				"Preferences: SublimeClang Settings – Default"
+			],
+			[
+				"SublimeClang",
+				"Preferences: SublimeClang Settings – User"
+			],
+			[
+				"proj",
+				"Project: Save As"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"packe",
+				"Package Control: Disable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"package d",
+				"Package Control: Disable Package"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				":make",
+				"Set Syntax: Makefile"
+			],
+			[
+				"make all",
+				"Bookmarks: Select All"
+			],
+			[
+				"make clean",
+				"SublimeHaskell: Clean"
+			],
+			[
+				"MakeCoo ",
+				"MakeCommands: make hg-commit"
+			],
+			[
+				"make",
+				"MakeCommands: make hg-addremove"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ctag",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"cta",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"ctags",
+				"CTags: Show Symbols (file)"
+			],
+			[
+				"c",
+				"CTags: Show Symbols (all)"
+			],
+			[
+				"histo",
+				"Git: Commit history"
+			],
+			[
+				"histor",
+				"Git: Commit history"
+			],
+			[
+				"git hi",
+				"Git: Gitk This File"
+			],
+			[
+				"git log",
+				"Git: Log All"
+			],
+			[
+				"gits s",
+				"Git: Status"
+			],
+			[
+				"type",
+				"SublimeHaskell: Show type"
+			],
+			[
+				"git dif",
+				"Git: Diff Current File"
+			],
+			[
+				"sty",
+				"SublimeHaskell: Stylish"
+			],
+			[
+				"haskell",
+				"SublimeHaskell: Stylish"
+			],
+			[
+				"li",
+				"SublimeHaskell: Check & Lint"
+			],
+			[
+				"styl",
+				"SublimeHaskell: Stylish"
+			],
+			[
+				"lin",
+				"SublimeHaskell: Check & Lint"
+			],
+			[
+				"lint",
+				"SublimeHaskell: Check & Lint"
+			],
+			[
+				"sub",
+				"SublimeHaskell: Lint"
+			],
+			[
+				"sublime",
+				"SublimeHaskell: Configure"
+			],
+			[
+				"sublimeHaske",
+				"SublimeHaskell: Build"
+			],
+			[
+				"haskell ty",
+				"SublimeHaskell: Show type"
+			],
+			[
+				"has",
+				"SublimeHaskell: Lint"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"mark",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Packag",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 647.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/generator/include/myriad/generator/AbstractGeneratorSubsystem.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/io/CMakeLists.txt",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/record/CMakeLists.txt",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/runtime/CMakeLists.txt",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/runtime/include/myriad/runtime/provider/predicate/EqualityPredicateFieldBinder.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/runtime/include/myriad/runtime/provider/predicate/EqualityPredicateProvider.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/runtime/include/myriad/runtime/provider/range/AbstractRangeProvider.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/runtime/include/myriad/runtime/provider/range/ConstRangeProvider.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/runtime/include/myriad/runtime/provider/range/ContextFieldRangeProvider.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/runtime/include/myriad/runtime/provider/reference/AbstractReferenceProvider.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/runtime/include/myriad/runtime/provider/reference/ClusteredReferenceProvider.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/runtime/include/myriad/runtime/provider/reference/RandomReferenceProvider.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/runtime/include/myriad/runtime/provider/value/AbstractValueProvider.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/runtime/include/myriad/runtime/provider/value/CallbackValueProvider.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/runtime/include/myriad/runtime/provider/value/ClusteredValueProvider.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/runtime/include/myriad/runtime/provider/value/ConstValueProvider.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/runtime/include/myriad/runtime/provider/value/ContextFieldValueProvider.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/runtime/include/myriad/runtime/provider/value/ElementWiseValueProvider.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/runtime/include/myriad/runtime/provider/value/RandomValueProvider.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/runtime/include/myriad/runtime/setter/AbstractSetter.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/runtime/include/myriad/runtime/setter/FieldSetter.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/runtime/include/myriad/runtime/setter/ReferenceSetter.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/runtime/include/myriad/runtime/setter/SetterChain.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/record/include/myriad/record/AbstractRecord.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/CMakeLists.txt",
+		"/Users/carabolic/Development/repos/myriad-toolkit/CMakeLists.txt",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/include/myriad/math/algebra/MultiplicativeGroup.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/include/myriad/math/probability/BoundedNormalPrFunction.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/include/myriad/math/probability/BoundedParetoPrFunction.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/include/myriad/math/probability/CombinedPrFunction.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/include/myriad/math/probability/ConditionalCombinedPrFunction.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/include/myriad/math/probability/NormalPrFunction.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/include/myriad/math/probability/ParetoPrFunction.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/include/myriad/math/probability/Probability.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/include/myriad/math/probability/UniformPrFunction.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/include/myriad/math/random/CompoundEICG.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/include/myriad/math/random/EICG.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/include/myriad/math/random/HashRandomStream.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/include/myriad/math/random/NativeRandomStream.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/include/myriad/math/random/RandomStream.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/include/myriad/math/random/RNG.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/include/myriad/math/Function.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/include/myriad/math/util.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/src/algebra/MultiplicativeGroup.cpp",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/src/probability/Probability.cpp",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/math/src/random/RNG.cpp",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/io/include/myriad/io/AbstractOutputCollector.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/io/include/myriad/io/LocalFileOutputCollector.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/io/include/myriad/io/OutputCollector.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/io/include/myriad/io/SocketStreamOutputCollector.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/io/include/myriad/io/VoidOutputCollector.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/generator/CMakeLists.txt",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/generator/include/myriad/generator/AbstractSequenceGenerator.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/generator/include/myriad/generator/GeneratorPool.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/generator/include/myriad/generator/RandomSequenceGenerator.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/generator/include/myriad/generator/StageTask.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/generator/src/AbstractGeneratorSubsystem.cpp",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/config/include/myriad/config/ObjectBuilder.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/config/include/myriad/config/FunctionPool.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/config/include/myriad/config/EnumSetPool.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/config/src/AbstractGeneratorConfig.cpp",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/core/CMakeLists.txt",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/core/include/myriad/core/types.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/core/include/myriad/core/constants.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/core/src/exceptions.cpp",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/core/src/types/MyriadEnumSet.cpp",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/core/src/Frontend.cpp",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/config/CMakeLists.txt",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/config/include/AbstractGeneratorConfig.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/communication/CMakeLists.txt",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/communication/src/CommunicationSubsystem.cpp",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/communication/include/myriad/communication/Notifications.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/communication/include/myriad/communication/CommunicationSubsystem.h",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/communication/CommunicationSubsystem.cpp",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/cpp/communication/CommunicationSubsystem.h",
+		"/Users/carabolic/Library/Application Support/Sublime Text 2/Packages/SublimeClang/SublimeClang.sublime-settings",
+		"/usr/local/include/Poco/Util/Subsystem.h",
+		"/Users/carabolic/Library/Application Support/Sublime Text 2/Packages/User/SublimeClang.sublime-settings",
+		"/Users/carabolic/Development/repos/myriad-toolkit/myriad-toolkit.sublime-project",
+		"/Users/carabolic/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/carabolic/Development/ftfp-2/Data/POrd.hs",
+		"/Users/carabolic/Development/ftfp-2/Data/Trie.hs",
+		"/Users/carabolic/Development/ftfp-2/Search.hs",
+		"/Users/carabolic/Development/ftfp-2/frequency-analysis.hs",
+		"/Users/carabolic/Development/ftfp-2/Data/MySet.hs",
+		"/Users/carabolic/Development/ftfp-2/Data/SimpleQueue.hs",
+		"/Users/carabolic/Development/ftfp-2/Data/ListQueue.hs",
+		"/Users/carabolic/Development/ftfp-2/Data/SchedQueue.hs",
+		"/Users/carabolic/Development/ftfp-2/Data/Deque.hs",
+		"/Users/carabolic/Development/ftfp-2/Data/AssociativeArray.hs",
+		"/Users/carabolic/Development/ftfp-2/Data/AList.hs",
+		"/Users/carabolic/Development/ftfp-2/ListenFunktionale.hs",
+		"/Users/carabolic/Development/ftfp-2/BinTree.hs",
+		"/Users/carabolic/Development/ftfp-2/Trie.hs",
+		"/Users/carabolic/Development/ftfp-2/Data/PriorityQueue.hs",
+		"/Users/carabolic/Development/ftfp-2/Data/SkewHeap.hs",
+		"/Users/carabolic/Development/ftfp-2/Data/Queue.hs",
+		"/Users/carabolic/Development/ftfp-2/Data/Queues/SimpleQueue.hs",
+		"/Users/carabolic/Development/ftfp-2/Data/Queues/Queue.hs",
+		"/Users/carabolic/Development/ftfp-2/Data/hello-world.hs",
+		"/Users/carabolic/Development/ftfp-2/frequency.hs",
+		"/Users/carabolic/Development/ftfp-2/Data/FrequencyAnalysis.hs",
+		"/Users/carabolic/Development/ftfp-2/Data/Set.hs",
+		"/Users/carabolic/Development/ftfp-2/Data/MultiSet.hs",
+		"/Users/carabolic/Development/ftfp-2/Set.hs",
+		"/Users/carabolic/Development/ftfp-2/MultiSet.hs",
+		"/Users/carabolic/Development/ftfp-2/AList.hs",
+		"/Users/carabolic/Library/Application Support/Sublime Text 2/Packages/User/SublimeHaskell.sublime-settings",
+		"/Users/carabolic/Library/Application Support/Sublime Text 2/Packages/SublimeHaskell/Settings/SublimeHaskell.sublime-settings",
+		"/Users/carabolic/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/B6161F0C-2E93-424C-ABCF-558423806727/myriad-poster-informatiktage-2014.v3.svg",
+		"/Users/carabolic/Development/repos/dbgen/dss.ri",
+		"/Users/carabolic/Development/repos/dbgen/config.h",
+		"/Users/carabolic/Development/repos/dbgen/.tags",
+		"/Users/carabolic/Development/repos/dbgen/makefile",
+		"/Users/carabolic/Development/repos/dbgen/rng64.c",
+		"/Users/carabolic/Development/repos/dbgen/rnd.c",
+		"/Users/carabolic/Development/repos/dbgen/dss.h",
+		"/Users/carabolic/Development/repos/dbgen/build.c",
+		"/Users/carabolic/Development/repos/dbgen/tpcd.h",
+		"/Users/carabolic/Library/Application Support/Sublime Text 2/Packages/SublimeClang/Default.sublime-keymap",
+		"/Users/carabolic/Library/Application Support/Sublime Text 2/Packages/User/CTags.sublime-settings",
+		"/Users/carabolic/Library/Application Support/Sublime Text 2/Packages/CTags/CTags.sublime-settings",
+		"/Users/carabolic/Development/repos/dbgen/dsstypes.h",
+		"/Users/carabolic/Development/repos/dbgen/.gitignore",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/python/myriad/dgen.py",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/python/myriad/importer.py",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/config/prototype.xsd",
+		"/Users/carabolic/Development/repos/myriad-toolkit/src/config/frontend.xsd"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"/include",
+			"null",
+			"remove",
+			"SimpleQueue",
+			"a",
+			"Simple",
+			"PairingNode",
+			"PairingHeap",
+			"emty",
+			"Trie",
+			"set_state",
+			"DSS_HUGE",
+			"SEED_T",
+			"RANDOM64",
+			"SEED_T",
+			"seed_t",
+			"RANDOM64",
+			"dss_random",
+			"RANDOM",
+			"history",
+			"path",
+			"xsd",
+			"    \n",
+			"html",
+			"fy",
+			"];\n",
+			"typename"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Deque",
+			"Sched",
+			"List",
+			"SkewNode",
+			"SkewHeap"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "CMakeLists.txt",
+					"settings":
+					{
+						"buffer_size": 1537,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1397,
+								1397
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CMake/CMake.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 372.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/cpp/config/include/myriad/config/AbstractGeneratorConfig.h",
+					"settings":
+					{
+						"buffer_size": 11177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/cpp/generator/include/myriad/generator/AbstractSequenceGenerator.h",
+					"settings":
+					{
+						"buffer_size": 8039,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								774,
+								789
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1890.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 179.0
+	},
+	"output.haskell_error_checker":
+	{
+		"height": 245.0
+	},
+	"output.haskell_sublime_load":
+	{
+		"height": 100.0
+	},
+	"output.sublime_haskell_hdevtools_type":
+	{
+		"height": 100.0
+	},
+	"output.sublime_haskell_symbol_info":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true
+}
