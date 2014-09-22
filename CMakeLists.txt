@@ -10,6 +10,7 @@ set(MYRIAD_HEADERS src/cpp/communication/CommunicationSubsystem.h
                    src/cpp/config/AbstractGeneratorConfig.h
                    src/cpp/config/EnumSetPool.h
                    src/cpp/config/FunctionPool.h
+                   src/cpp/config/GeneratorConfig.h
                    src/cpp/config/ObjectBuilder.h
                    src/cpp/core/constants.h
                    src/cpp/core/exceptions.h
@@ -20,6 +21,7 @@ set(MYRIAD_HEADERS src/cpp/communication/CommunicationSubsystem.h
                    src/cpp/generator/AbstractGeneratorSubsystem.h
                    src/cpp/generator/AbstractSequenceGenerator.h
                    src/cpp/generator/GeneratorPool.h
+                   src/cpp/generator/GeneratorSubsystem.h
                    src/cpp/generator/InvalidRecordException.h
                    src/cpp/generator/RandomSequenceGenerator.h
                    src/cpp/generator/StageTask.h
@@ -74,14 +76,15 @@ set(MYRIAD_HEADERS src/cpp/communication/CommunicationSubsystem.h
 )
 
 set(MYRIAD_SOURCES src/cpp/communication/CommunicationSubsystem.cpp
-                  src/cpp/config/AbstractGeneratorConfig.cpp
-                  src/cpp/core/exceptions.cpp
-                  src/cpp/core/Frontend.cpp
-                  src/cpp/core/types/MyriadEnumSet.cpp
-                  src/cpp/generator/AbstractGeneratorSubsystem.cpp
-                  src/cpp/math/algebra/MultiplicativeGroup.cpp
-                  src/cpp/math/probability/Probability.cpp
-                  src/cpp/math/random/RNG.cpp
+                   src/cpp/config/AbstractGeneratorConfig.cpp
+                   src/cpp/core/exceptions.cpp
+                   src/cpp/core/Frontend.cpp
+                   src/cpp/core/types/MyriadEnumSet.cpp
+                   src/cpp/generator/AbstractGeneratorSubsystem.cpp
+                   src/cpp/generator/GeneratorSubsystem.cpp
+                   src/cpp/math/algebra/MultiplicativeGroup.cpp
+                   src/cpp/math/probability/Probability.cpp
+                   src/cpp/math/random/RNG.cpp
 )
 
 # create API docs with custom target
