@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 project(myriad-toolkit)
 
-set(MYRIAD_VERSION 0.3.0)
+set(MYRIAD_VERSION 0.4.0)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/modules/")
 
@@ -73,7 +73,7 @@ set(MYRIAD_HEADERS src/cpp/communication/CommunicationSubsystem.h
                    src/cpp/runtime/setter/SetterChain.h
 )
 
-set(MYRIAD_SOURCE src/cpp/communication/CommunicationSubsystem.cpp
+set(MYRIAD_SOURCES src/cpp/communication/CommunicationSubsystem.cpp
                   src/cpp/config/AbstractGeneratorConfig.cpp
                   src/cpp/core/exceptions.cpp
                   src/cpp/core/Frontend.cpp
@@ -114,14 +114,34 @@ find_package(Poco COMPONENTS Foundation Net Util XML REQUIRED)
 include_directories("src/cpp")
 include_directories(${Poco_INCLUDE_DIRS})
 
-add_custom_target(libMyriadTest SOURCES ${MYRIAD_HEADERS})
+add_custom_target(libMyriadToolkit SOURCES ${MYRIAD_HEADERS})
 
 
 # actually build the toolkit
 #
-# add_executable(myriad-toolkit ${MYRIAD_TOOLKIT_SOURCES})
-#
-# target_link_libraries(
-#     myriad-tests
-#     ${Poco_LIBRARIES}
-# )
+add_library(myriad-toolkit ${MYRIAD_SOURCES} ${MYRIAD_HEADERS})
+
+target_link_libraries(
+    myriad-toolkit
+    ${Poco_LIBRARIES}
+)
+
+# TESTING
+## set root folder for google testing framework
+set(GTEST_ROOT "test/gtest")
+
+## set the test sources
+set(MYRIAD_TESTS_SOURCES test/cpp/math/probability/UniformPrFunctionTest.cpp
+)
+
+add_subdirectory(${GTEST_ROOT})
+
+include_directories(${GTEST_ROOT}/include)
+
+add_executable(tests ${MYRIAD_TESTS_SOURCES})
+
+target_link_libraries(
+    tests
+    myriad-toolkit
+    gtest_main
+)
