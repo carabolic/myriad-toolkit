@@ -85,6 +85,7 @@ set(MYRIAD_SOURCES src/cpp/communication/CommunicationSubsystem.cpp
                    src/cpp/math/algebra/MultiplicativeGroup.cpp
                    src/cpp/math/probability/Probability.cpp
                    src/cpp/math/random/RNG.cpp
+                   src/cpp/math/util.cpp
 )
 
 # create API docs with custom target
@@ -134,7 +135,19 @@ target_link_libraries(
 set(GTEST_ROOT "test/gtest")
 
 ## set the test sources
-set(MYRIAD_TESTS_SOURCES test/cpp/math/probability/UniformPrFunctionTest.cpp
+set(MYRIAD_TESTS_SOURCES test/cpp/config/ObjectBuilderTest.cpp
+                         test/cpp/core/types/MyriadDateTest.cpp
+
+                         # merge changes from CompositeKeys branch first
+                         # test/cpp/core/types/MyriadTupleTest.cpp
+                         test/cpp/math/probability/UniformPrFunctionTest.cpp
+                         test/cpp/math/random/CompoundEICGTest.cpp
+
+                         # EICGTest test only implements private methods
+                         # should be extended/rewritten to test public methods only
+                         # test/cpp/math/random/EICGTest.cpp
+                         test/cpp/math/random/HashRandomStreamTest.cpp
+                         test/cpp/math/MathUtilitiesTest.cpp
 )
 
 add_subdirectory(${GTEST_ROOT})
