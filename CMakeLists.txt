@@ -110,7 +110,7 @@ if (DOXYGEN_FOUND)
         COMMAND ${DOXYGEN_EXECUTABLE} ${doxyfile} DEPENDS ${DOXY_INPUT})
 
 else(DOXYGEN_FOUND)
-    message(FATAL_ERROR "doxygen not found!")
+    message(WARNING "doxygen not found!")
 endif(DOXYGEN_FOUND)
 
 find_package(Poco COMPONENTS Foundation Net Util XML REQUIRED)
